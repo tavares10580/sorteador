@@ -54,7 +54,7 @@ function atualizarParticipantes() {
         }
         excluir.style.display = 'inline-block';
     }
-}s
+}
 
 function atualizarSorteados() {
     const sorteadosDiv = document.getElementById('sorteadosDiv');
@@ -119,7 +119,7 @@ function sortear() {
         }
 
         //P4 - O elemento sorteado deverá ser retirado da coleção SET nomes
-        remove(vencedor);
+        remover(vencedor);
   
 
     }, 1500);
