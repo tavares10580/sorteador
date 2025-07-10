@@ -54,7 +54,7 @@ function atualizarParticipantes() {
         }
         excluir.style.display = 'inline-block';
     }
-}
+}s
 
 function atualizarSorteados() {
     const sorteadosDiv = document.getElementById('sorteadosDiv');
@@ -69,7 +69,7 @@ function atualizarSorteados() {
     else {
         sorteadosDiv.innerHTML = "";
        for (let sorteado of sorteados){
-           resultado.innerHTML += 
+           sorteadosDiv.innerHTML += 
             `<div class="sorteado-item">
                 ${sorteado}                
             </div>`
@@ -147,3 +147,4 @@ function excluirTodosSorteados() {
         
     }
 }
+
